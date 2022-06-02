@@ -1,0 +1,10 @@
+@import url("pattern/patterns.css");
+@import url("pattern/header.css");
+
+@import url("utilities/cores.css");
+
+@import url("./section.css");
+@import url("./animais.css");
+@import url("./faq.css");
+
+@import url("pattern/footer.css");

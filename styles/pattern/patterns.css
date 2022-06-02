@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--bg-main);
+  color: var(--font-color);
+
+  display: grid;
+  grid-template-columns: 1fr 120px minmax(300px, 1000px) 1fr;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  padding-block: 30px;
+}
+
+.title {
+  font-family: "Playfair Display SC", georgia;
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  grid-column: 1 / 4;
+}

@@ -1,0 +1,53 @@
+#animais h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--font-color-text);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#animais h2::before {
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 40px;
+  margin-right: 10px;
+  background-color: var(--bg-detalhes);
+}
+
+#animais p {
+  font-family: helvetica, arial;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+#animais .animais-images {
+  height: 370px;
+  overflow-y: scroll;
+  grid-column: 2;
+}
+
+#animais .animais-images::-webkit-scrollbar {
+  width: 18px;
+}
+
+#animais .animais-images::-webkit-scrollbar-thumb {
+  background-color: var(--bg-detalhes);
+  border-left: 4px solid var(--bg-main);
+  border-right: 4px solid var(--bg-main);
+}
+
+#animais .animais-images::-webkit-scrollbar-track {
+  background-color: var(--bg-main);
+}
+
+.animais-descricao {
+  grid-column: 3;
+}
+
+.animais-descricao section {
+  margin-bottom: 3rem;
+}
