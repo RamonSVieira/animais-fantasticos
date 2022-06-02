@@ -7,7 +7,7 @@
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: var(--font-color);
+  color: var(--font-color-text);
 }
 
 .faq-lista dt::before {

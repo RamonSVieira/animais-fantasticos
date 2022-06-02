@@ -9,6 +9,21 @@ body {
   grid-template-columns: 1fr 120px minmax(300px, 1000px) 1fr;
 }
 
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--bg-detalhes);
+  border-left: 4px solid var(--bg-main);
+  border-right: 4px solid var(--bg-main);
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--bg-main);
+}
+
 a {
   color: inherit;
 }

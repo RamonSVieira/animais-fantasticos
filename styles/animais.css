@@ -24,23 +24,24 @@
   margin-bottom: 1rem;
 }
 
-#animais .animais-images {
+.animais-images {
   height: 370px;
   overflow-y: scroll;
   grid-column: 2;
 }
 
-#animais .animais-images::-webkit-scrollbar {
-  width: 18px;
+.animais-images::-webkit-scrollbar {
+  width: 15px;
 }
 
-#animais .animais-images::-webkit-scrollbar-thumb {
+.animais-images::-webkit-scrollbar-thumb {
   background-color: var(--bg-detalhes);
   border-left: 4px solid var(--bg-main);
   border-right: 4px solid var(--bg-main);
+  border-radius: 8px;
 }
 
-#animais .animais-images::-webkit-scrollbar-track {
+.animais-images::-webkit-scrollbar-track {
   background-color: var(--bg-main);
 }
 

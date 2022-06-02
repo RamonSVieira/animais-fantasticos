@@ -1,0 +1,48 @@
+@media (max-width: 700px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  .menu,
+  .grid-section,
+  .copy {
+    grid-column: 1;
+  }
+
+  .menu nav ul,
+  footer {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .grid-section {
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+  }
+
+  .animais-images {
+    grid-column: 1;
+  }
+
+  .faq-lista,
+  .dados,
+  .mapa {
+    grid-column: 1 / 4;
+  }
+
+  .grid-section h1 {
+    font-size: 3rem;
+  }
+
+  .menu {
+    margin-top: 0px;
+  }
+
+  .copy {
+    margin-bottom: 0px;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
