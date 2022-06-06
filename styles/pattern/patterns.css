@@ -48,7 +48,7 @@ img {
   max-width: 100%;
 }
 
-section {
+body > section {
   padding-block: 30px;
 }
 

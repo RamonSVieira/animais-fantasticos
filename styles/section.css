@@ -3,7 +3,7 @@
   width: 100%;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 100px 300px 1fr;
+  grid-template-columns: 80px 300px 1fr;
   gap: 20px;
   padding: 20px;
 }
