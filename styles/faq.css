@@ -41,7 +41,7 @@
 
 .js .js-accordion dd.ativo {
   display: block;
-  animation: slideDown 0.7s forwards;
+  animation: slideDown 1s forwards;
 }
 
 @keyframes slideDown {
