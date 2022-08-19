@@ -3,6 +3,8 @@
 
 @import url("utilities/cores.css");
 
+@import url("./modal.css");
+
 @import url("./section.css");
 @import url("./animais.css");
 @import url("./faq.css");
